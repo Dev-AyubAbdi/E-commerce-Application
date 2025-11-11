@@ -21,7 +21,7 @@ export const Header = () => {
       <div className='relative'>
         <Link to={"/cart"}>
          <span> <HiOutlineShoppingBag className='w-9 h-9'/></span>
-        <span className='absolute w-5 h-6  -top-0 -right-0   bg-pink-500 rounded-full text-white'>10</span>
+        <span className='absolute w-5 h-6  -top-0 -right-0   bg-pink-500 rounded-full text-white'>0</span>
         </Link>
        
       </div>
