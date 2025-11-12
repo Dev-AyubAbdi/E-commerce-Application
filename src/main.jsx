@@ -16,6 +16,11 @@ const routerProvider = createBrowserRouter([
     element: <App />,
     children: [
       {
+        index: true,
+        element: <Products />
+
+      },
+      {
       path: "about",
       element: <About/>
       },
