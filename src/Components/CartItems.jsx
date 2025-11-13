@@ -1,5 +1,6 @@
 import React from "react";
 import { BsTrash3 } from "react-icons/bs";
+import { Peymnets } from "./Peymnets";
 
 export const CartItems = () => {
   const products = [
@@ -191,7 +192,7 @@ export const CartItems = () => {
 
         {products.map((product) => (
           <div className="flex flex-start space-y-9">
-            <img
+            <img 
               className=" w-24 h-24 rounded-lg "
               src={product.thumbnail}
               alt={product.title}
@@ -217,7 +218,7 @@ export const CartItems = () => {
         ))}
       </div>
       {/* cart peyments */}
-      <div className="border lg:w-1/3">hello</div>
+     <Peymnets/>
     </div>
   );
 };
